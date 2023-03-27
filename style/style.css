@@ -1,0 +1,70 @@
+body {
+  background-color: #f2f2f2;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px #999;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #21d68bde;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 5px #999;
+  width: 100%;
+}
+
+button[type="submit"],#btn-entrar {
+  background-color: #21d68bde;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #999;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #2E8B57;
+}
+
+.card p {
+  margin-top: 30px;
+}
+
+.card p a {
+  color: #4CAF50;
+}
+
+.card p a:hover {
+  text-decoration: underline;
+}
